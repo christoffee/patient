@@ -4,7 +4,7 @@
   "description": "appointment managing app",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "dev": "webpack-dev-server --inline",
     "build": "webpack -p"
   },
   "repository": {
@@ -28,7 +28,6 @@
     "webpack": "^2.1.0-beta"
   },
   "devDependencies": {
-    "react-hot-loader": "^1.3.0",
-    "webpack-dev-server": "^1.14.1"
+    "react-hot-loader": "^1.3.0"
   }
 }
